@@ -1,0 +1,1 @@
+java -cp ../target/simplesend-1.0.0-jar-with-dependencies.jar;../target/simplesend-1.0.0.jar com.microsoft.azure.eventhubs.samples.SimpleSend.SimpleSend <EVENT_HUB_NAMESPACE> <EVENT_HUB_NAME> <SaSKeyName> <SaSKey>
