@@ -98,7 +98,7 @@ Query on ClickHouse table using click-house client will show the records just in
 
  
 Contributors - <br/>
-Praveen Chandrasekharan <br/>
-R K Iyer
+**Praveen Chandrasekharan** <br/>
+**R K Iyer**
 
  
