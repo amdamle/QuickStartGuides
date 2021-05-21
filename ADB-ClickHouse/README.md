@@ -18,7 +18,7 @@ I will be using part of the following architecture - </br>
    
 **How is the artifacts arranged** - 
 1. Simulation script is a java code present in src/main/java. built jars are available in dist
-2. Databricks Streaming job is a DBC archive that can be imported into Databricks workspace
+2. Databricks Streaming job sample is provided as a DBC archive in /databricks folder
 3. ClickHouse sample Table creation script is present in scripts / sql
 
 ## Setup Instructions -
@@ -79,7 +79,7 @@ Navigate to dist or setup java code in src/main/java into IDE of your choice and
 1. Create a Databricks spark 3 cluster with 1 driver and 1 master node you may choose 4 Core 14 GB machine
 2. Deploy clickhouse JDBC driver from maven com.github.housepower:clickhouse-integration-spark_2.12:2.5.4
 3. Deploy eventhub library - com.microsoft.azure:azure-eventhubs-spark_2.12:2.3.18
-5. Make use of the dbc archive present in the dbc folder and import it into Azure Databricks workspace
+5. Make use of the dbc archive present in the ./databricks folder and import it into Azure Databricks workspace
 6. Replace following parameters with he ClickHouse instance details you created
 * serverName - Name of ClickHouse server / IP Address
 * database - Name of the database created in ClickHouse
