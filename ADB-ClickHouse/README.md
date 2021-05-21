@@ -96,10 +96,9 @@ From command prompt navigate to scripts folder and execute send script. e.g. if 
 
 Query on ClickHouse table using click-house client will show the records just inserted by streaming job
 
-
-
  
-
- 
+Contributors - <br/>
+**Praveen Chandrasekharan** <br/>
+**R K Iyer**
 
  
